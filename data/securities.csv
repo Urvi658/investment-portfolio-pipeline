@@ -1,0 +1,16 @@
+security_id,ticker,security_name,asset_class,sector,industry,country,currency
+AAPL,AAPL,Apple Inc.,Equity,Technology,Consumer Electronics,United States,USD
+MSFT,MSFT,Microsoft Corporation,Equity,Technology,Software - Infrastructure,United States,USD
+NVDA,NVDA,NVIDIA Corporation,Equity,Technology,Semiconductors,United States,USD
+JPM,JPM,JP Morgan Chase & Co.,Equity,Financial Services,Banks - Diversified,United States,USD
+GS,GS,"Goldman Sachs Group, Inc. (The)",Equity,Financial Services,Capital Markets,United States,USD
+JNJ,JNJ,Johnson & Johnson,Equity,Healthcare,Drug Manufacturers - General,United States,USD
+AMZN,AMZN,"Amazon.com, Inc.",Equity,Consumer Cyclical,Internet Retail,United States,USD
+XOM,XOM,ExxonMobil Holdings Corporation,Equity,Energy,Oil & Gas Integrated,United States,USD
+DIS,DIS,Walt Disney Company (The),Equity,Communication Services,Entertainment,United States,USD
+GOOGL,GOOGL,Alphabet Inc.,Equity,Communication Services,Internet Content & Information,United States,USD
+PG,PG,Procter & Gamble Company (The),Equity,Consumer Defensive,Household & Personal Products,United States,USD
+KO,KO,Coca-Cola Company (The),Equity,Consumer Defensive,Beverages - Non-Alcoholic,United States,USD
+CVX,CVX,Chevron Corporation,Equity,Energy,Oil & Gas Integrated,United States,USD
+GOVT,GOVT,iShares U.S. Treasury Bond ETF,Fixed Income,N/A,N/A,N/A,USD
+LQD,LQD,iShares iBoxx $ Investment Grad,Fixed Income,N/A,N/A,N/A,USD
