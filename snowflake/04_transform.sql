@@ -47,3 +47,22 @@ SELECT
     hv.market_value / NULLIF(pt.total_portfolio_value, 0) AS position_weight
 FROM holding_values hv
 JOIN portfolio_totals pt ON hv.portfolio_id = pt.portfolio_id;
+CREATE OR REPLACE TABLE TRF_PORTFOLIO_PERFORMANCE AS
+WITH holding_returns AS (
+    SELECT
+        h.portfolio_id,
+        h.security_id,
+        h.position_weight,
+        m.date,
+        m.daily_return
+    FROM TRF_HOLDINGS h
+    JOIN TRF_MARKET_PRICES m ON h.security_id = m.security_id
+    WHERE m.daily_return IS NOT NULL
+)
+SELECT
+    portfolio_id,
+    date,
+    SUM(position_weight * daily_return) AS portfolio_daily_return
+FROM holding_returns
+GROUP BY portfolio_id, date
+ORDER BY portfolio_id, date;
