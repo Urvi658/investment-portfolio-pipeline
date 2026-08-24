@@ -46,13 +46,15 @@ flowchart TD
 - **Dimensional modeling**: Proper star schema (3 dimension tables, 3 fact tables) designed for BI consumption
 
 ## Repository Structure
+```
 investment-portfolio-pipeline/
-├── data/ # Source CSVs and extracted data
-├── python/ # Extraction, validation, load scripts
-├── snowflake/ # SQL DDL for each schema layer
-├── powerbi/ # Power BI dashboard file
-├── docs/ # Data dictionary and architecture notes
-└── screenshots/ # Dashboard screenshots
+├── data/            # Source CSVs and extracted data
+├── python/          # Extraction, validation, load scripts
+├── snowflake/        # SQL DDL for each schema layer
+├── powerbi/          # Power BI dashboard file
+├── docs/            # Data dictionary and architecture notes
+└── screenshots/       # Dashboard screenshots
+```
 
 ## Data Model
 
