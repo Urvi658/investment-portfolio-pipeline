@@ -1,0 +1,5 @@
+date,security_id,open_price,high_price,low_price,close_price,volume,error_type
+2026-08-22,AAPL,190.5,192.0,189.0,-5.0,1000000,Duplicate record
+2026-08-22,AAPL,190.5,192.0,189.0,191.2,1000000,Duplicate record
+2026-08-22,AAPL,190.5,192.0,189.0,191.2,1000000,Duplicate record
+2026-08-22,AAPL,190.5,192.0,189.0,-5.0,1000000,Negative price
