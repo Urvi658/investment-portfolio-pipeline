@@ -62,7 +62,14 @@ See [docs/data_dictionary.md](docs/data_dictionary.md) for full table/column doc
 
 ## Dashboard
 
-*Screenshots coming soon.*
+### Executive Overview
+![Executive Overview](screenshots/Executive_Overview.png)
+
+### Holdings & Exposure
+![Holdings & Exposure](screenshots/Holdings_Exposure.png)
+
+### Performance & Risk
+![Performance & Risk](screenshots/Performance_Risk.png)
 
 ## Author
 
